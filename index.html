@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Futura Nostalgia -  Indumentaria</title>
+        <link rel="icon" type="image/x-icon" href="/images/favi.png" />
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <!--Navegación-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><img src="/images/favi.png" width="30px" height="30px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Sobre nosotrxs</a></li>
+                    </ul>
+
+            </div>
+        </nav>
+
+        <!--Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <img src="/images/Signo.png" width="600px" height="250px">
+                    <p class="lead fw-normal text-white-50 mb-0">Celebramos lo viejo y lo nuevo de la música</p>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center">
+            <div id="myBtnContainer">
+                <button class="btn" id="clickremera"><a href="#remerabowie">Remeras</a></button>
+                <button class="btn" id="clickbuzo"><a href="#remerabowie">Buzos</a></button>
+                <button class="btn" id="clickcampera"><a href="#remerabowie">Camperas</a></button>
+                <button class="btn" id="clickborrar">Borrar filtros</button>
+                </div>
+            </div>
+        </div>
+        </header>
+
+        <!--Cuerpo-->
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div class="row row-cols-sm1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=buzostyles>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/buzo_styles.png">
+                            <h5 class="item-title">Buzo<b><i>"Harry Styles"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$4000</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=remerabowie>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/rem_bowie.png">
+                            <h5 class="item-title">Remera<b><i>"David Bowie"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$2550</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=camperagaga>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="images/cam_gaga.png">
+                            <h5 class="item-title">Campera<b><i>"Lady Gaga"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$4000</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=vestidolana>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/buzo_lana.png">
+                            <h5 class="item-title">Buzo<b><i>"Lana del Rey"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$2550</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=camperaelton>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/cam_elton.png">
+                            <h5 class="item-title">Campera<b><i>"Elton John"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$4000</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=remeratina>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/rem_stones.png">
+                            <h5 class="item-title">Remera<b><i>"Rolling Stones"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$2550</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=buzodoja>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/buzo_doja.png">
+                            <h5 class="item-title">Buzo<b><i>"Doja Cat"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$2550</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    
+                    <div class="col d-flex justify-content-center mb-4">
+                        <div id=remerafleetwood>
+                        <div class="item mb-4" style="width: 20rem;">
+                            <img class="item-image" src="/images/rem_fleet.png">
+                            <h5 class="item-title">Remera<b><i>"Fleetwood Mac"</i></b></h3>
+                            <div class="item-details">
+                                <h4 class="item-price">$2550</h4>
+                                <button type="button" class="item-button btn btn-primary addToCart" data-toggle="modal" data-target="#exampleModal">Añadir al carrito</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>   
+
+    <!--Carrito-->
+    <section class="shopping-cart">
+        <div class="container">
+            <h4 class="text-center">CARRITO</h4>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+
+            <!-- Total -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- Formulario -->
+                    <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="comprarModalLabel">Finaliza tu compra</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Nombre</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Jim Morrison"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Número de télefono</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="+54 11 31347414"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxxx@xxxx.com">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Cuotas</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>3</option>
+                                            <option>6</option>
+                                            <option>12</option>
+                                        </select>
+                                    </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                            <label for="exampleFormControlTextarea1">Número de tarjeta</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="0000 000000 00000"></textarea>
+                                            </div>
+                                            <div class="col">
+                                            <label for="exampleFormControlTextarea1">Nombre en la tarjeta</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="James Douglas Morrison"></textarea>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col">
+                                            <label for="exampleFormControlTextarea1">Desde</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="07/20"></textarea>
+                                            </div>
+                                            <div class="col">
+                                            <label for="exampleFormControlTextarea1">Hasta</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="05/21"></textarea>
+                                            </div>
+                                            <div class="col">
+                                                <label for="exampleFormControlTextarea1">Código</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="000"></textarea>
+                                            </div>
+                                        </div>
+                                    <br>
+                                    <button type="button" data-target="#finalizarModal" data-toggle="modal" class="closes finalizarButton" data-dismiss="modal" aria-label="Close" ><p class="enviarfinal">Enviar</p>
+                                        <span aria-hidden="false">&times;</span>
+                                    </button>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+            <!-- Ventana emergente final -->
+            <div class="modal fade" id="finalizarModal" tabindex="-1" aria-labelledby="finalizarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="finalizarModalLabel">Gracias por su compra</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pronto recibirá su pedido</p>
+                            <p><b>Su número de compra es: 12654</b></p>
+                            <p>Revise su casilla de correo para más información</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false" class="show-toast">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+            <p class="modal-title">Producto agregado al carrito con éxito</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="false">&times;</span>
+            </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark p-3 mt-5">
+        <p class="text-center m-0 text-muted">Futura Nostalgia (2021) </p>
+    </footer>
+
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+
+</body>
+</html>
